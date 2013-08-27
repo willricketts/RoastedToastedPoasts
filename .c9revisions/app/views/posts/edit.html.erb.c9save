@@ -1,0 +1,4 @@
+{"ts":1377565220749,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"<H1>Edit Post</h1>\n\n<%= form_for @post do |f| %>\n    <p><%= f.label :title %></p>\n    <%= f.text_field :title %>\n    <br />\n    <p><%= f.label :content %></p>\n    <%= f.text_area :content %>\n<% end %>"]],"start1":0,"start2":0,"length1":0,"length2":200}]],"length":200}
+{"contributors":[],"silentsave":false,"ts":1377565412034,"patch":[[{"diffs":[[0,"tent %>\n"],[1,"    <%= f.submit %>\n"],[0,"<% end %"]],"start1":183,"start2":183,"length1":16,"length2":36}]],"length":220,"saved":false}
+{"ts":1377565422496,"patch":[[{"diffs":[[0,"ntent %>"],[1,"<br />"],[0,"\n    <%="]],"start1":182,"start2":182,"length1":16,"length2":22}]],"length":226,"saved":false}
+{"ts":1377565462577,"patch":[[{"diffs":[[0,"f.submit"],[1," \"Update Post\""],[0," %>\n<% e"]],"start1":205,"start2":205,"length1":16,"length2":30}]],"length":240,"saved":false}

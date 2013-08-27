@@ -1,0 +1,8 @@
+{"ts":1377537523598,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1377537508564,"patch":[[{"diffs":[[1,"<h1>New Post</h1>"]],"start1":0,"start2":0,"length1":0,"length2":17}]],"length":17,"saved":false}
+{"ts":1377537700768,"patch":[[{"diffs":[[0,"ost</h1>"],[1,"\n\n<% form_for @post do |f| %>\n<p>\n    <%= f.label :title %>\n    <%= f.text_field :title %>\n<p>\n<% end %>"]],"start1":9,"start2":9,"length1":8,"length2":112}]],"length":121,"saved":false}
+{"ts":1377537727176,"patch":[[{"diffs":[[0,"tle %>\n<"],[1,"/"],[0,"p>\n<% en"]],"start1":101,"start2":101,"length1":16,"length2":17}]],"length":122,"saved":false}
+{"ts":1377537755853,"patch":[[{"diffs":[[0,"%>\n</p>\n"],[1,"<p>\n    <%= f.label :content %>\n    <%= f.text_area :content %>\n</p>\n"],[0,"<% end %"]],"start1":105,"start2":105,"length1":16,"length2":85}]],"length":191,"saved":false}
+{"ts":1377537786539,"patch":[[{"diffs":[[0,"%>\n</p>\n"],[1,"<p>\n    <%= f.submit \"Add a new Post\" %>\n</p>\n"],[0,"<% end %"]],"start1":174,"start2":174,"length1":16,"length2":62}]],"length":237,"saved":false}
+{"ts":1377537821795,"patch":[[{"diffs":[[0,"/h1>\n\n<%"],[1,"="],[0," form_fo"]],"start1":13,"start2":13,"length1":16,"length2":17}]],"length":238,"saved":false}
+{"ts":1377537848404,"patch":[[{"diffs":[[0,"title %>"],[1,"<br />"],[0,"\n    <%="]],"start1":69,"start2":69,"length1":16,"length2":22},{"diffs":[[0,"ntent %>"],[1,"<br />"],[0,"\n    <%="]],"start1":143,"start2":143,"length1":16,"length2":22}]],"length":250,"saved":false}
