@@ -3,8 +3,8 @@
     <h2><%= link_to post.title, post  %></h2>
     
     <p><%= post.content %></p>
-    <p><%= link_to "Edit", edit_post_path(post) %> | <%= link_to "Delete", post, :confirm => "Yeah?", :method => :delete %></p>
+        <p><% if user_signed_in? %><%= link_to "Edit", edit_post_path(post) %> | <%= link_to "Delete", post, :confirm => "Yeah?", :method => :delete %><% end %></p>
     <hr />
 <% end %>
 
-<p><%= link_to "Add a new post", new_post_path %></p>
+<p><% if user_signed_in? %><%= link_to "Add a new post", new_post_path %><% end %></p>

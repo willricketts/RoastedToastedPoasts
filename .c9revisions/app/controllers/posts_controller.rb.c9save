@@ -16,3 +16,7 @@
 {"ts":1377608638342,"patch":[[{"diffs":[[0,"@post }\n"],[1,"        format.xml { render xml: @post }\n"],[0,"        "]],"start1":221,"start2":221,"length1":16,"length2":57}]],"length":1050,"saved":false}
 {"ts":1377608640229,"patch":[[{"diffs":[[0,"t }\n        "],[1,"    "],[0,"format.xml {"]],"start1":225,"start2":225,"length1":24,"length2":28}]],"length":1054,"saved":false}
 {"ts":1377609711402,"patch":[[{"diffs":[[0,"d])\n"],[-1,"        respond_to do |format|\n            format.json { render json: @post }\n            format.xml { render xml: @post }\n        end\n"],[0,"    "]],"start1":147,"start2":147,"length1":143,"length2":8}]],"length":919,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1377613297439,"patch":[[{"diffs":[[0,"dit\n        "],[1,"@post = Post.find(params[:id])\n        before_filter :authenticate_member!"],[0,"\n    end\n   "]],"start1":456,"start2":456,"length1":24,"length2":98}]],"length":963,"saved":false}
+{"ts":1377613391278,"patch":[[{"diffs":[[0,"troller\n"],[1,"    \n    before_filter :authenticate_member!\n    \n"],[0,"    def "]],"start1":38,"start2":38,"length1":16,"length2":66}]],"length":1013,"saved":false}
+{"ts":1377613405649,"patch":[[{"diffs":[[0,"   \n"],[-1,"    before_filter :authenticate_member!\n    \n"],[0,"    "]],"start1":47,"start2":47,"length1":53,"length2":8}]],"length":968,"saved":false}
+{"ts":1377614698108,"patch":[[{"diffs":[[0,"d])\n"],[-1,"        before_filter :authenticate_member!\n"],[0,"    "]],"start1":500,"start2":500,"length1":52,"length2":8}]],"length":924,"saved":false}

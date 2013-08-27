@@ -10,6 +10,7 @@ gem 'twitter-bootstrap-rails'
 gem 'less'
 gem 'less-rails'
 gem 'therubyracer'
+gem 'devise'
 
 
 # Gems used only for assets and not required
